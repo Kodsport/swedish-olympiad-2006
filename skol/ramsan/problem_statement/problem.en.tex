@@ -1,0 +1,26 @@
+\problemname{The Counting Rhyme}
+
+
+{\em
+Ole Dole Doff\\
+Kinke Lane Koff\\
+Koffe Lane, Binke Bane\\
+Ole Dole Doff \\
+Ärtan Pärtan Piff\\
+Ärtan Pärtan Paff \\
+Similimaka, Kuckelikaka\\
+Ärtan Pärtan Poff
+}
+
+Counting rhymes of this kind have been used by children throughout the ages to randomly select someone, for example who will be ``it'' in a game of hide and seek. The children form a circle, and the one who ``counts'' moves their finger from one child to the next, around the circle, for each word in the rhyme. When the rhyme ends, the pointed-at child leaves the circle. The rhyme is read again starting from the child immediately after the eliminated one. This procedure continues until only one child remains, the chosen one.
+
+\section*{Input}
+The first line contains two integers $k$ and $n$ ($2 \leq k,n \leq 100$), the number of words in the rhyme and the number of children in the circle. The children are numbered from $1$ to $n$ in the same direction as the counting occurs. Number $1$ is the child the counting starts on.
+
+\section*{Output}
+Output a single integer: the number of the child who is last remaining.
+
+\section*{Explanation of Samples}
+In sample 1, child $1$ points at the following children in order: $1$, $2$, $3$, $1$. Child $1$ is thus eliminated. Since child $2$ is next in line, it counts $2$, $3$, $2$, $3$. Then child $3$ leaves and child $2$ is the last child remaining.
+
+In sample 2, the first child to be eliminated is number $7$, followed by number $15$, $8$, and $2$.
